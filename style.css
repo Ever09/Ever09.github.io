@@ -1,0 +1,205 @@
+/* 标签样式初始化 */
+        body{margin:0;padding:0;background:#fff;font-size:14px;font-family:Arial,Helvetica,'STHeiti','Microsoft YaHei','sans-serif'}
+        form,ul,li,p,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+        img{border:0;}
+        ul,li{list-style-type:none;}
+        a{color:#00007F;text-decoration:none;}
+        a:hover{text-decoration:none;}
+
+.top{
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.logo{
+	font-size: 20px;
+	color: #f14e42;
+	/*display: inline;*/
+	float: left;
+}
+
+.websitelink{
+	font-size: 12px;
+	color: #999999;
+	/*vertical-align: top;/*垂直位置*/*/
+}
+
+.nav{
+	font-size: 14px;
+	color: #999999;                                  
+	float: right;
+	margin-left: 40px;
+	text-decoration: none;
+	transition: all 0.15s linear;
+}
+.nav:hover{
+	color: #6bc5d2;
+}
+
+/*==================*/
+
+.banner{
+	background-color: #6bc5d2;
+	padding-top: 100px;
+	padding-bottom: 120px;
+	margin-bottom: 10px;
+}
+
+.typographic{
+	font-size: 400px;
+	color: #ffffff;
+	letter-spacing: -20px;
+	float:left;
+	margin-top: -182px;
+	padding-right: 40px;
+	margin-left: 120px;
+}
+
+.slogan{
+	font-size: 36px;
+	color: #ffffff;
+}
+
+.introduction{
+	color: #177c8a;
+	margin-top: 20px;
+}
+
+.call{
+	font-size: 18px;
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	padding: 10px 30px;
+	display: inline-block;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.call:hover{
+	background: rgba(255,255,255,0.2);
+}
+/*===================*/
+
+.poemtitle{
+	color: #f14e42;
+	font-size: 24px;
+	margin-bottom: 30px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.poemcontent{
+	color: #6f6f70;
+	line-height: 25px;
+}
+
+.center{
+	width: 480px;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+
+/*===================*/
+.visiontitle{
+	color: #f14e42;
+	font-size: 24px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	padding-top:60px;
+}
+
+.visioncontent{
+	color: #6f6f70;
+	line-height: 25px;
+	text-align: left;
+}
+
+.bottom{
+	width: 700px;
+	margin: 0 auto;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+.photo{
+	float: left;
+}
+
+/*===================*/
+.contactblock{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contacttitle{
+	font-size: 24px;
+	color: #6f6f70;
+	padding-top: 50px;
+}
+
+.email{
+	font-size: 18px;
+	background-color: #6bc5d2;
+	padding: 10px 40px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 30px;
+	color: white;
+}
+
+.email:hover{
+	background: #73d4e2;
+}
+
+/*===================*/
+.footer{
+	max-width:960px; 
+	background: #f3f3f3;
+	padding: 35px 0;
+	text-align: center;
+	margin: 0 auto;
+	border-bottom: 1px solid #e3e3e3;
+}
+
+.footercontent{
+	color: #bfbfbf;
+}
+
+/*===================*/
+@media (max-width: 1000px) {
+	.typographic{
+		display: none;
+	}
+
+	.banner{
+		text-align: center;
+	}
+	.photo{
+		display: none;
+	}
+	.visiontitle{
+		display: none;
+	}
+	.websitelink{
+		display: none;
+	}
+	.logo{
+		float: none;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.nav{
+		float: none;
+		margin-left: 20px;
+	}
+	.top{
+		text-align: center;
+	}
+}
