@@ -9,7 +9,7 @@ article{
 header{
   width: 100%;
   background-size:cover;
-  background-image: url(images/75.png);
+  background-image: url(img/75.png);
   text-align: center;
   position: fixed;
   z-index: 1;
