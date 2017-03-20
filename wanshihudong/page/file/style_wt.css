@@ -1,0 +1,58 @@
+@media (max-width: 991px){
+	.nav_bot{display: none;}
+	.navbar{background: #fff;height:none;}
+	.logo{padding-top: 5px;} 
+	.logo img{height: 40px;}
+	.lang span{display: none;}
+	.newssj1{display: none;}
+	.m_ul{padding: 0px 20px;}
+	.m_ul .newsnr{margin-left: 0;padding-right: 0px;}
+	.m_ul li{margin-top: 10px;border-bottom: dotted 1px #000;padding-bottom: 10px;}
+	.mbt{margin-top: 20px;}
+	.m_ul1 li span.abs span {display: none;}
+	.m_ul1 li span.abs{font-size: 14px;padding: 5px 0px;}
+	.main_bot{padding: 10px 0px; text-align: center;}
+	.main_bot a{margin: 0 10px; display: inline-block;}
+	.main_bot .col-md-3{text-align: center;}
+	.fbr{text-align: center;}
+	.fbr{display: none;}
+	.footer{display: none;}
+	.xuanfu{display: none;}
+	.ejm_pro_top{margin-top: 0;}
+	.ejmpl,.ejmpr,.search{margin: 10px auto 0 auto !important;}
+	.ejm_pro_nav{text-align: center;line-height: 30px;padding: 10px 15px;}
+	.ejm_1>.container{padding: 50px 0px;}
+	.ej_join_a a{font-size: 24px; width: 100px;height: 40px;}
+	.ejm_2 .ejnav4{margin-left: 15px; margin-bottom: 20px;}
+}
+
+@media (min-width: 992px) {
+	.navbar{height: 93px;background: #ffffff; padding: 0px; margin: 0px;}
+	.logo{top: 15px; left: 0px; position: absolute; padding: 0px;}
+	.nav{position: absolute;top: 92px;left: 0px;}
+	.nav li{
+		height: 40px;line-height: 40px;
+	}
+
+	.navbar-default .nav li a{height: 40px;line-height: 40px;padding: 0px; margin: 0px; font-size: 16px; color: black;}
+	.main_bot .row a:hover{color: #fc9f00;}
+	.navbar-default .nav li a{height: 40px;line-height: 40px;padding: 0px;margin: 0px;font-size: 18px;color: #fff;}
+	.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:hover{background: none;color: #fc9f00!important;}
+	.lang span{display: inline-block;}
+	.navbar-default .nav li.lang a{display: inline-block!important;color: #000!important;font-size: 12px;}
+	.lang {position: absolute!important;top: -85px;right: 0px; width: 100px;}
+	.hotline{position: absolute!important;top: -55px;right: 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

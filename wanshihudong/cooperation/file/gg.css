@@ -1,0 +1,30 @@
+.fw{
+	font-family: 'Microsoft Yahei';
+}
+.fix{
+	*zoom: 1;
+}
+.abs{position: absolute;}
+.tc{text-align: center;}
+.fl{float: left!important;}
+.fr{float: right!important;}
+.db{display: block;}
+.rel{position: relative;}
+.pb{padding-bottom: 30px;}
+.auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+.pt20{padding-top: 20px;}
+.b{font-weight: bold;}
+.fix:after{
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+.ovh{
+	overflow: hidden;
+}

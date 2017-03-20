@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+			<form action="form1" name="form1">
+				<label for="">账号:</label><input id="username" name="username" value="" type="text" placeholder="请输入您的账号">
+				<br>
+				<label for="">密码:</label><input id="paw" name="password" onchange="if (this.value.length >= 8) {
+					alert(123)
+					}" type="password" placeholder="请输入您的密码">
+				<br>
+				<select name="ss" id="" onchange="if (this.value == '身份证') {document.form1.ii.value='XXXX-XXXX-XXXX-XXXXXX';}">
+					<option value="">选择</option>	
+					<option value="身份证">身份证</option>
+					<option value="护照">护照</option>
+				</select>
+				<input id="female" type="text" name="ii" value=""  placeholder="请输入您的有效证件号码" >
+				<br>
+				<label for="">手机号码:</label><input id="phone" value="" onblur="checkPhone()" type="text" maxlength=11; placeholder="请输入您的手机号码">
+				<br>
+				<button>登录</button> 
+			</form>
+	<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.js"></script>
+	<script>
+function isCardNo(card){  
+   // 身份证号码为15位或者18位，15位时全为数字，18位前17位为数字，最后一位是校验位，可能为数字或字符X  
+   var reg = /[1-8]\d{5}((18)|(19)|(20))?\d{2}[0-1]\d[0-3]\d{4}[X\d]?/;  
+   if(reg.test(card) === false)  
+   {  
+       alert("身份证输入不合法");  
+       return  false;  
+   }  
+}  
+function checkPhone(){ 
+    var phone = document.getElementById('phone').value;
+    if(!(/^[1][358][0-9]{9}$/.test(phone))){ 
+        alert("手机号码输入有误，请重填");  
+        return false; 
+    } 
+}	
+	</script>
+</body>
+</html>

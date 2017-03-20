@@ -1,0 +1,42 @@
+.fw{
+	font-family: 'Microsoft Yahei';
+}
+.abs{position: absolute;}
+.rel{position: relative;}
+.fix{
+	*zoom:1;
+}
+.fix:after{
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+
+.tc{text-align: center;}
+.fl{float: left!important;}
+.fr{float: right!important;}
+.db{
+	display: block;
+}
+.wb{width: 100%}
+.navbar{margin: 0px;padding: 0px;}
+
+.pt10{
+	padding-top: 10px;
+}
+.pb30{
+	padding-bottom: 30px;
+}
+ul, ol {
+	list-style-type:none;
+}
+.b{font-weight: bold;}
+.ovh{
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+}

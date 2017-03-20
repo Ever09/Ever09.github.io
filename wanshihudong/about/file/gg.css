@@ -1,0 +1,77 @@
+/*二维码部分*/
+.db{
+	display: block;
+}
+.fl{
+	float: left!important;
+}
+.fr{
+	float: right!important;
+}
+.abs{
+	position: absolute;
+}
+.fix:after{
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	font-size: 0;
+}
+/*.fix{
+	*zoom:1;
+}*/
+/*导航部分*/
+.fw{
+	font-family: 'Microsoft Yahei';
+}
+.wb{
+	width: 100%;
+}
+.navbar{
+	padding: 0;
+	margin: 0;
+}
+
+/*大图内容部分*/
+.tc{
+	text-align: center;
+}
+.auto{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*图片部分*/
+.mb30{
+	margin-bottom: 30px;
+}
+.rel{
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

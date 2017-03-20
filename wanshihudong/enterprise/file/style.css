@@ -1,0 +1,136 @@
+.bgf1f1f1{
+	background: #f1f1f1;
+}
+body{
+	overflow-x:hidden; 
+}
+/*开始二维码*/
+.xuanfu{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	margin-top: -80px;
+	z-index: 1111;
+}
+.xuanfu a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #505050;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 1px;
+}
+.xuanfu a img{
+	vertical-align: middle;
+}
+.xuanfu a:hover{background: #562886;}
+.ewm{
+	top: 0px;
+	right: 60px;
+	width: 178px;
+}
+.ewml{
+	width: 34px;
+	line-height: 26px;
+	background: #562886;
+	color: #fff;
+	height: 145px;
+	padding-top: 7px; 
+}
+/*导航*/
+.nav_bot {
+	background: #562886;
+	height: 40px;
+}
+.wb{
+	width: 100%;
+}
+/*大图下方*/
+.ej_bread{
+	border-bottom: solid 1px #e3e3e3;
+}
+.ej_bread1{
+	text-align: right;
+}
+.ej_top{
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+.ej_top div.tl a{
+	color: #545454;
+	display: inline-block;
+	padding: 3px 6px;
+}
+.ej_top div.tl a:hover, .ej_top div.tl a.current{
+	background: #562886;
+	color: #fff;
+}
+.ej_top div.tr a{
+	color: #545454;
+}
+.ej_top div.tr img{
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin: 0px 4px;
+}
+
+/*内容*/
+.ejm{
+	background: url(../img/huawen.jpg);
+}
+.ej_bot{
+	padding: 20px 15px 30px;
+}
+#tiles{
+	list-style-type: none;
+	position: relative;
+	margin: 0px;
+	padding:0px; 
+}
+#tiles li{
+	width: 270px;
+	background-color: #e6e6e6;
+	border: 1px solid #fff;
+	-webkit-border-radius:2px;
+	cursor: pointer;
+	padding: 10px 10px 0px;
+}
+#tiles li img{
+	display: block;
+}
+#tiles li p {
+	text-align: center;
+	color: #4b4a4b;
+	line-height: 30px;
+}
+.ej_bot img{
+	max-width: 100%;
+}
+/*导航2*/
+.main_bot{
+	background-color: #350a63;
+	line-height: 40px;
+}
+.main_bot a{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 80px;
+}
+/*尾巴*/
+.footer{
+	background-color: #562886;
+	padding: 18px 0px;
+}
+.fb1{
+	color: #24004c;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.fb2{
+	color: #fff;
+	font-size: 14px;
+	line-height: 32px;
+}
+.fbr{text-align: right;font-size: 0px;}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="javascript" src="./file/jquery.js"></script>
+	<style>
+		#canvas{
+			
+		}
+	</style>
+</head>
+<body>
+
+	<div id="box"></div>
+	<a href="" id="a"></a>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!-- <div id="Box">pornhub</div> -->
+
+		<!-- <canvas id="canvas" style="border: 1px solid red" width="1200" height="800"></canvas> -->
+
+
+</body>
+	<script src=http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js></script>
+	<script>
+		
+        $.getJSON("https://www.cpds.cc/index.php?m=api&c=indexwb&a=indextagall&time_tag=1488767722.84348&deviceid=17845D5E-6945-4E60-8924-94E74742C6B8&sign=acc223aebd4a41704993c9384a22c1cd&app_type=2&pagesize=20&page=1",
+	       	function(data){
+	 			var arr = data.data.pointlist[0];
+	 			console.log(arr);
+
+	 			 $("#box").append("<img src="+ arr.url +">");
+	 				 $("#a").append("<p>"+ arr.posttime + "</p>")
+	 			// for (var i = 0; i < arr.length; i++) {
+	 				// $("#box").append("<img src="+ arr[i].url +">");
+	 				// $("#a").append("<p>"+ arr[i].title + "</p>")
+	 				// $("#a").append("<p>"+ arr[i].content + "</p>")
+	 				// $("#a").append("<p>"+ arr[i].main + "</p>")
+	 				// $("#a").append("<p>"+ arr[i].summary + "</p>")
+	 				// $("#a").append("<p>"+ arr[i].id + "</p>")
+	 				// var srr = arr[i].photoall;
+	 				// console.log(srr);
+	 				// for (var j = 0; j < srr.length; j++) {
+	 				// 	$("#Box").append("<img src="+ srr[j].small +">");
+	 				// 	$("#Box").append("<img src="+ srr[j].big +">");
+	 				// }
+	 			// }
+       		}
+       	);
+       	</script>
+<!-- 
+  //    function draw(){
+  //    	var canvas = document.getElementById('canvas');
+  //    	 if (canvas.getContext) {
+  //    	 	var ctx = canvas.getContext('2d');
+  //    	 	ctx.beginPath();    //绘制三角形
+		// 	ctx.moveTo(25,25);  //起始点
+		// 	ctx.lineTo(105,25); //第一条线
+		// 	ctx.lineTo(25,105); //第二条件
+		// 	ctx.fill();
+
+		// 	ctx.beginPath()   //绘制三角形
+		// 	ctx.moveTo(125,125);  //起始点
+		// 	ctx.lineTo(125,45);  //第一条线
+		// 	ctx.lineTo(45,125);  //第二条件
+		// 	ctx.closePath();  //闭合
+		// 	ctx.stroke();
+
+		// 	for(var i = 0; i < 4; i++){
+  //                   for (var j = 0; j<3; j++){
+  //                           ctx.beginPath()
+  //                           var x = 150+ j*50;
+  //                           var y = 150+ i*50;
+  //                           var radius = 20;
+  //                           var starAngel = 0;
+  //                           var endAngel = Math.PI + (Math.PI * j) / 2 ;
+
+  //                           var anticlickwise = (i % 2) == 0 ? false : true;
+
+  //                           ctx.arc(x,y,radius,starAngel,endAngel,anticlickwise);
+  //                           ctx.stroke();
+
+  //                           if (i < 2 ){
+  //                               ctx.stroke();
+  //                           }else{
+  //                               ctx.fill();
+  //                           }
+  //                       }
+  //                   }
+		// }
+  //    }
+  //    draw(); -->
+
+
+</script>  
+</html>

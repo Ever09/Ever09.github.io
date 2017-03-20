@@ -1,0 +1,156 @@
+/*二维码*/
+.xuanfu {
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	margin-top: -80px;
+	z-index: 1111;
+}
+.xuanfu a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #505050;
+	text-align: center;
+	line-height: 50px;
+	margin-top:1px; 
+}
+.xuanfu a img{
+	vertical-align: middle;
+}
+.xuanfu a:hover{background: #562886;}
+.xuanfu .ewm{
+	display: none;
+}
+.ewm{
+	top: 0px;
+	right: 60px;
+	width: 178px;
+}
+.ewml{
+	width: 34px;
+	line-height: 26px;
+	background: #562886;
+	color: #fff;
+	height: 145px;
+	padding-top: 7px;
+}
+
+/*导航*/
+.bgf1f1f1{background: #f1f1f1}
+.nav_bot{height: 40px;background: #562886}
+.nav li{height: 40px;line-height: 40px;}
+.nav{position: absolute;top: 25px;}
+.navbar-default .navbar-nav > li > a:hover{color: #fc9f00;}
+
+/*大图内容*/
+.ejm_pro_top{
+	position: relative;
+	z-index: 111;
+	margin-top: -60px;
+}
+.ejmpl{
+	width: 120px;
+	height: 54px;
+	background:url(../img/btbg1.png) no-repeat center center;
+	line-height: 40px;
+	color: #ffffff;
+	font-size: 16px;
+}
+/*~~~~~~~~~*/
+.ejm_pro_top{
+	color: #303030;
+	font-size: 16px;
+	line-height: 40px;
+}
+.ejm_pro_nav1{
+	border-bottom: solid 1px #c5c5c5;
+	padding-bottom: 10px;
+}
+
+/*大流	*/
+#tiles{
+	list-style-type: none;
+	position: relative;
+	margin:0;
+	padding: 0;
+}
+
+#tiles li{
+	width: 270px;
+	background-color: #e6e6e6;
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding: 10px 10px 0;
+}
+#tiles li img{
+	display: block;
+}
+#tiles li p{
+	text-align: center;
+	color: #4b4b4b;
+	line-height: 30px;
+}
+
+/*底部导航*/
+.main_bot{
+	background: #350a63;
+	line-height: 40px;
+}
+.main_bot a{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 80px;
+}
+.footer{
+	background: #562886;
+	padding: 18px 0px; 
+}
+.fb1{
+	color: #24004c;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.fb2{
+	color: #fff;
+	font-size: 14px;
+	line-height: 32px;
+}
+.fbr{
+	text-align: right;
+	font-size: 0px;
+}
+.fbr img{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

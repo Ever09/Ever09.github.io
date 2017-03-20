@@ -1,0 +1,197 @@
+.bgf1f1f1{
+	background: #f1f1f1;
+}
+body{
+	overflow-x:hidden; 
+}
+/*开始二维码*/
+.xuanfu{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	margin-top: -80px;
+	z-index: 1111;
+}
+.xuanfu a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #505050;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 1px;
+}
+.xuanfu a img{
+	vertical-align: middle;
+}
+.xuanfu a:hover{background: #562886;}
+.ewm{
+	top: 0px;
+	right: 60px;
+	width: 178px;
+}
+.ewml{
+	width: 34px;
+	line-height: 26px;
+	background: #562886;
+	color: #fff;
+	height: 145px;
+	padding-top: 7px; 
+}
+/*导航*/
+.nav_bot {
+	background: #562886;
+	height: 40px;
+}
+.wb{
+	width: 100%;
+}
+.ej_join_a{
+	top: 50%;
+	width: 100%;
+}
+.ej_join_a a{
+	display: inline-block;
+	width: 166px;
+	height: 46px;
+	border-radius: 25px;
+	color: #ffffff;
+	font-size: 30px;
+	border-style: solid;
+	border-width: 2px;
+	margin: 0px 5px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.ejmm{
+	background: url(../img/bgtp2.jpg);
+}
+.ej_nav2{
+	position: absolute;
+	top: -125px;
+	left: 40px;
+}
+.ej_nav2 a:hover, .ej_nav2 a.on{
+	color: #562886;
+}
+.ej_nav2 a{
+	width: 130px;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	margin-right: 10px;
+}
+.ej_nav2 a:hover span, .ej_nav2 a.on span{
+	background-image: url(../img/yuan2.png);
+}
+.ej_nav2 span{
+	width: 45px;
+	height: 45px;
+	background: url(../img/yuan1.png) no-repeat;
+	line-height: 45px;
+	margin-bottom: 5px;
+}
+.ej_nav2 span img{
+	vertical-align: middle;
+	position: relative;
+	top: -3px;
+	left: 1px;
+}
+/*----------------------*/
+.ej_bread1{
+	padding-top: 25px;
+	padding-bottom: 5px;
+}
+.ej_bread1{
+	top: -60px;
+	text-align: right;
+}
+.ej_bread1 a{
+	color: #fff;
+}
+.ej_bread1 img{
+	vertical-align: middle;
+	position: relative;
+	top: -2px;
+	margin: 0px 4px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.ejm_2{
+	background: url(../img/bgtp1.png) repeat-y center ;
+}
+.ejm_2{
+	margin-top: -30px;
+	padding-top: 70px;
+}
+.ejm_2_top .col-xs-11{
+	background: #562886;
+	border-radius: 15px;
+	padding-right: 40px;
+}
+.renwu1{
+	position: relative;
+	top: 7px;
+	margin-top: 60px;
+	width: 302px;
+	height: 514px;
+}
+.ejm_2_top_nr_bt{
+	border-bottom: 2px solid #c69e27;
+	line-height: 40px;
+}
+.ejm_2_top_nr_bt span.fl{
+	color: #fc9f00;
+	font-size: 16px;
+	padding-left: 10px;
+}
+.ejm_2_top_nr_bt span.fr{
+	font-size: 18px;
+	color: #fc9f00;
+	padding-right: 20px;
+}
+
+.ejm_2_top_xx{
+	line-height: 30px;
+	font-size: 16px;
+	color: #fff;
+	padding: 20px;
+}
+.con_fs{
+	width: 386px;
+	height: 120px;
+	border: 3px solid #d28122;
+	padding-left: 120px;
+	padding-top: 40px;
+	color: #d0c3dd;
+	font-size: 18px;
+	margin-top: 70px;
+	background: url(../img/dianhua.png) no-repeat 20px center;
+}
+
+/*导航2*/
+.main_bot{
+	background-color: #350a63;
+	line-height: 40px;
+}
+.main_bot a{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 80px;
+}
+/*尾巴*/
+.footer{
+	background-color: #562886;
+	padding: 18px 0px;
+}
+.fb1{
+	color: #24004c;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.fb2{
+	color: #fff;
+	font-size: 14px;
+	line-height: 32px;
+}
+.fbr{text-align: right;font-size: 0px;}

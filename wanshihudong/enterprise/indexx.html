@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+</body>
+<script src="./file/jquery-1.11.2.min.js"></script>
+<script>
+		//使用一个JSONP解决跨域问题
+		var cd = function (data){
+		// for (var i = 0; i < data.length; i++) {
+		// 	var url = JSON.stringify(data[i].imgsUrl);
+		// 	for (var j = 0; j < url.length; j++) {
+		// 		// console.log(url[j]);
+		// 		var img = document.createElement('img');
+		// 		img.src=url[j];
+		// 		document.body.appendChild(img);
+		// 	}
+		// 	}
+		console.log(data);
+		}
+		window.onload = function (){
+			var sc = document.createElement("script");
+			sc.id = "script_id";
+			sc.src = "http://datainfo.duapp.com/shopdata/getGoods.php?callback=cd";
+
+			document.body.appendChild(sc);
+			// 使用后从dom中删除
+			document.getElementById(sc.id).remove();
+	}
+	</script>
+	
+	<!-- <script src=php.js></script> -->
+</html>

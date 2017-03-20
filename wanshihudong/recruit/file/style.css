@@ -1,0 +1,92 @@
+.bgf1f1f1{
+	background: #f1f1f1;
+}
+body{
+	overflow-x:hidden; 
+}
+/*开始二维码*/
+.xuanfu{
+	position: fixed;
+	top: 50%;
+	right: 0px;
+	margin-top: -80px;
+	z-index: 1111;
+}
+.xuanfu a{
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #505050;
+	text-align: center;
+	line-height: 50px;
+	margin-top: 1px;
+}
+.xuanfu a img{
+	vertical-align: middle;
+}
+.xuanfu a:hover{background:#562886;}
+.ewm{
+	top: 0px;
+	right: 60px;
+	width: 178px;
+}
+.ewml{
+	width: 34px;
+	line-height: 26px;
+	background: #562886;
+	color: #fff;
+	height: 145px;
+	padding-top: 7px; 
+}
+/*导航*/
+.nav_bot {
+	background: #562886;
+	height: 40px;
+}
+.wb{
+	width: 100%;
+}
+.ej_join_a{
+	top: 50%;
+	width: 100%;
+}
+.ej_join_a a{
+	display: inline-block;
+	width: 166px;
+	height: 46px;
+	border-radius: 25px;
+	color: #ffffff;
+	font-size: 30px;
+	border-style: solid;
+	border-width: 2px;
+	margin: 0px 5px;
+}
+
+
+
+/*导航2*/
+.main_bot{
+	background-color: #350a63;
+	line-height: 40px;
+}
+.main_bot a{
+	color: #fff;
+	font-size: 16px;
+	margin-right: 80px;
+}
+/*尾巴*/
+.footer{
+	background-color: #562886;
+	padding: 18px 0px;
+}
+.fb1{
+	color: #24004c;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.fb2{
+	color: #fff;
+	font-size: 14px;
+	line-height: 32px;
+}
+.fbr{text-align: right;font-size: 0px;}
